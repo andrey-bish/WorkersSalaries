@@ -6,4 +6,5 @@ public class EmployeeDto
     public string Type { get; set; }
     public int HourlyRate { get; set; }
     public double MonthlySalary { get; set; }
+    public string Temp;
 }
