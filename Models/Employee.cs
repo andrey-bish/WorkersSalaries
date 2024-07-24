@@ -2,6 +2,7 @@
 
 public abstract class Employee
 {
+    public string Temp;
     public string Id { get; set; }
     public string Name { get; set; }
     public double MonthlySalary { get; set; }
