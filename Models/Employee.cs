@@ -15,7 +15,7 @@ public class HourlyEmployee : Employee
 {
     public int HourlyRate { get; set; }
 
-    public override double CalculateAverageMonthlySalary() 
+    public override double CalculateAverageMonthlySalary()
     {
         return MonthlySalary = Math.Round(20.8 * 8 * HourlyRate, 2);
     }
