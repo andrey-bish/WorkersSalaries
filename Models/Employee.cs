@@ -11,9 +11,9 @@ public abstract class Employee
 }
 
 // Потомок с почасовой оплатой
-public class HourlyEmployee : Employee
+public class HourlyEmployee : Employee 
 {
-    public int HourlyRate { get; set; }
+    public int HourlyRate { get; set; } 
 
     public override double CalculateAverageMonthlySalary()
     {
