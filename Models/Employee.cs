@@ -8,7 +8,7 @@ public abstract class Employee
     public double MonthlySalary { get; set; }
     
     public abstract double CalculateAverageMonthlySalary();
-}
+} 
 
 // Потомок с почасовой оплатой
 public class HourlyEmployee : Employee 
